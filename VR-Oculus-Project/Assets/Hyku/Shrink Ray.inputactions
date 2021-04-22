@@ -1,0 +1,55 @@
+{
+    "name": "Shrink Ray",
+    "maps": [
+        {
+            "name": "Gadget Action Map",
+            "id": "65d4f0f4-3fe7-4a5c-b9be-0b66238daacb",
+            "actions": [
+                {
+                    "name": "TriggerLaser",
+                    "type": "Button",
+                    "id": "d4a8ad9a-19e4-4bb8-8a90-c9b5b8b85303",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d1b8b846-7a39-4037-8b18-254fb308d257",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerLaser",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "06bde818-a371-4295-a4dc-5984bea0df3c",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerLaser",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6bc1639-be1c-4090-8f53-033f9f9fd62e",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerLaser",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
